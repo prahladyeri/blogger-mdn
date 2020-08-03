@@ -2,18 +2,70 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="Prahlad Yeri">
 	<meta name="description" content="blogger-mdn - A blogger client with markdown support">
 	<meta name="keywords" content="blogger, markdown, google">
-	<meta name="copyright" content="(c) 2020 Prahlad Yeri. This app is Apache-2.0 licensed">
+	<meta name="copyright" content="(c) 2020 Prahlad Yeri. This software is Apache-2.0 licensed">
+	<link rel="stylesheet" href="static/css/external/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="static/css/external/bootstrap.min.css">
+	<link rel="stylesheet" href="static/css/app.css">
 	<title>blogger-mdn</title>
-	<link rel="stylesheet" href="static/css/app.css"></link>
 </head>
 <body>
-	<h1>It works!</h1>
+<nav id='mainNav' class='navbar navbar-expand-lg navbar-dark bg-dark'>
+<!-- <a class='navbar-brand' href="/"><span class='fa fa-home'>&nbsp;</span>Home</a> -->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse container" id="navbarContent">
+	<ul class="navbar-nav mr-auto" >
+		<li class="nav-item  active">
+		<a class="nav-link " href="#connect" >Connect</a>
+		</li>
+		<li class="nav-item dropdown">
+		<a class="nav-link dropdown-toggle" href="javascript:" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select</a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		  <a class="dropdown-item" href="#">Action</a>
+		  <a class="dropdown-item" href="#">Another action</a>
+		  <div class="dropdown-divider"></div>
+		  <a class="dropdown-item" href="#">Something else here</a>
+		</div>
+		</li>
+		<li class="nav-item">
+			<a href="#compose" class="nav-link" ">Compose</a>
+		</li>
+	</ul>
+	
+	<ul class='navbar-nav mr-auto ml-auto'>
+		<li class="nav-item">
+		<a class="nav-link" href="https://github.com/prahladyeri/blogger-mdn"><span class='fa fa-github fa-lg'></span></a>
+		</li>
+		<li class='nav-item'>
+		<span class='font-weight-bold navbar-text text-success'>blogger-mdn</span>
+		</li>
+	</ul>
+	
+	<ul class='navbar-nav'>
+		<li class="nav-item">
+		<a class="nav-link" href='#about' >About</a>
+		</li>
+	</ul>
+</div>
+</nav>
+	
+<div id="mainContainer" class='container'>
+	<h4>It works!</h4>
+	<h4 id='lblRoute'></h4>
+</div>
+
+<nav style="height: 35px; padding: 2px; margin: 2px;" class="navbar fixed-bottom navbar-sm navbar-dark bg-dark">
+  <span style="padding:2px;" class="mr-auto ml-auto navbar-text text-centre" href="#">(c) Prahlad Yeri 2020. blogger-mdn is <a href="https://opensource.org/licenses/Apache-2.0">free software</a></span>
+</nav>
 	<!-- ... -->
 	<script src="static/js/external/jquery-1.11.1.min.js"></script>
+	<script src="static/js/external/popper-1.16.0.min.js"></script>
+	<script src="static/js/external/bootstrap.min.js"></script>
 	<script src="static/js/app.js"></script>
 </body>
 </html>

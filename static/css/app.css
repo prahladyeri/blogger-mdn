@@ -8,5 +8,29 @@
 */
 
 body {
-	font-family: segoe ui;
 }
+
+li.nav-item.dropdown div.dropdown-menu a.dropdown-item:hover,
+li.nav-item.dropdown div.dropdown-menu a.dropdown-item:focus
+{
+    background-color: #0a0a79;
+	color: white;
+}
+
+#mainNav {
+	font-family: courier, consolas;
+}
+
+/* #mainNav .navbar-nav a.nav-link span.fa */
+/* { */
+	/* white-space: pre; */
+	/* display: none; */
+/* } */
+
+/* #mainNav .navbar-nav a.nav-link span.fa:after { */
+	/* content: " "; */
+/* } */
+
+/* span.testspan1:after { */
+	/* content: "\A"; */
+/* } */
