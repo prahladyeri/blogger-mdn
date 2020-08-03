@@ -7,7 +7,7 @@
 	<meta name="description" content="blogger-mdn - A blogger client with markdown support">
 	<meta name="keywords" content="blogger, markdown, google">
 	<meta name="copyright" content="(c) 2020 Prahlad Yeri. This software is Apache-2.0 licensed">
-	<link rel="stylesheet" href="static/css/external/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="static/css/external/font-awesome/css/all.min.css">
 	<link rel="stylesheet" href="static/css/external/bootstrap.min.css">
 	<link rel="stylesheet" href="static/css/app.css">
 	<title>blogger-mdn</title>
@@ -21,7 +21,7 @@
 <div class="collapse navbar-collapse container" id="navbarContent">
 	<ul class="navbar-nav mr-auto" >
 		<li class="nav-item  active">
-		<a class="nav-link " href="#connect" >Connect</a>
+		<a class="nav-link " href="#connect" ><span class="fab fa-blogger"></span>Connect</a>
 		</li>
 		<li class="nav-item dropdown">
 		<a class="nav-link dropdown-toggle" href="javascript:" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select</a>
@@ -33,13 +33,13 @@
 		</div>
 		</li>
 		<li class="nav-item">
-			<a href="#compose" class="nav-link" ">Compose</a>
+			<a href="#compose" class="nav-link"><span class='fas fa-plus-square'></span>Compose</a>
 		</li>
 	</ul>
 	
 	<ul class='navbar-nav mr-auto ml-auto'>
 		<li class="nav-item">
-		<a class="nav-link" href="https://github.com/prahladyeri/blogger-mdn"><span class='fa fa-github fa-lg'></span></a>
+		<a class="nav-link" href="https://github.com/prahladyeri/blogger-mdn"><span class='fab fa-github'></span></a>
 		</li>
 		<li class='nav-item'>
 		<span class='font-weight-bold navbar-text text-success'>blogger-mdn</span>
@@ -48,19 +48,21 @@
 	
 	<ul class='navbar-nav'>
 		<li class="nav-item">
-		<a class="nav-link" href='#about' >About</a>
+		<a class="nav-link" href='#about' ><span class='fas fa-question-circle'></span>About</a>
 		</li>
 	</ul>
 </div>
 </nav>
 	
-<div id="mainContainer" class='container'>
-	<h4>It works!</h4>
-	<h4 id='lblRoute'></h4>
+<div class='container'>
+	<div id="mainContainer" class='row'>
+	
+	</div>
 </div>
 
-<nav style="height: 35px; padding: 2px; margin: 2px;" class="navbar fixed-bottom navbar-sm navbar-dark bg-dark">
-  <span style="padding:2px;" class="mr-auto ml-auto navbar-text text-centre" href="#">(c) Prahlad Yeri 2020. blogger-mdn is <a href="https://opensource.org/licenses/Apache-2.0">free software</a></span>
+<nav id="footerNav" style="height: 35px; padding: 2px; margin: 2px;" class="navbar fixed-bottom navbar-sm navbar-dark bg-dark">
+  <span class="mr-auto ml-auto navbar-text text-centre" href="#">Copyright (c) 2020 Prahlad Yeri. blogger-mdn is <a href="https://github.com/prahladyeri/blogger-mdn">Free Software</a></span>
+  <span class='navbar-text'><a href="https://github.com/prahladyeri/blogger-mdn">v1.0</a></span>
 </nav>
 	<!-- ... -->
 	<script src="static/js/external/jquery-1.11.1.min.js"></script>

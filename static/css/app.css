@@ -21,15 +21,23 @@ li.nav-item.dropdown div.dropdown-menu a.dropdown-item:focus
 	font-family: courier, consolas;
 }
 
+#footerNav span {
+	padding:2px;	
+}
+
 /* #mainNav .navbar-nav a.nav-link span.fa */
 /* { */
 	/* white-space: pre; */
 	/* display: none; */
 /* } */
 
-/* #mainNav .navbar-nav a.nav-link span.fa:after { */
-	/* content: " "; */
-/* } */
+#mainNav ul.navbar-nav a.nav-link span.fab:after, 
+#mainNav ul.navbar-nav a.nav-link span.fas:after,
+#mainNav ul.navbar-nav a.nav-link span.far:after
+{
+	content: " ";
+	white-space: pre;
+}
 
 /* span.testspan1:after { */
 	/* content: "\A"; */
